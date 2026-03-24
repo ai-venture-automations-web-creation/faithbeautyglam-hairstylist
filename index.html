@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FaithBeautyGlam Hairstylist - Irvington's premier faith-inspired hair salon. 5-star rated beauty services: silk press, sew-in weaves, color, wig installs & more. Book your transformation today at 965 Springfield Ave, Irvington NJ." />
+  <meta name="keywords" content="hair salon Irvington NJ, black hair salon, silk press, sew-in weave, wig install, natural hair, highlights, FaithBeautyGlam" />
+  <meta name="author" content="FaithBeautyGlam Hairstylist" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FaithBeautyGlam Hairstylist | 5-Star Salon in Irvington, NJ" />
+  <meta property="og:description" content="Walk in blessed, walk out glam. Faith-inspired beauty services with a perfect 5-star rating. Book your appointment today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <title>FaithBeautyGlam Hairstylist | Irvington, NJ — Walk In Blessed, Walk Out Glam</title>
+
+  <!-- Google Fonts: Cormorant Garamond (luxury serif) + Jost (clean modern) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "FaithBeautyGlam Hairstylist",
+    "image": "images/hero-1.jpg",
+    "url": "https://faithbeautyglam.com",
+    "telephone": "+1-862-231-7343",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "965 Springfield Ave",
+      "addressLocality": "Irvington",
+      "addressRegion": "NJ",
+      "postalCode": "07111",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7238704,
+      "longitude": -74.2273765
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "25",
+      "bestRating": "5"
+    },
+    "openingHours": "Mo-Su 09:00-20:00",
+    "priceRange": "$$",
+    "servesCuisine": null,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Hair Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Haircut & Style"}, "price": "50", "priceCurrency": "USD"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Color & Highlights"}, "price": "120", "priceCurrency": "USD"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Silk Press"}, "price": "65", "priceCurrency": "USD"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sew-In Weave"}, "price": "150", "priceCurrency": "USD"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Wig Install"}, "price": "100", "priceCurrency": "USD"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Natural Hair Care"}, "price": "55", "priceCurrency": "USD"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "The Glam Package"}, "price": "130", "priceCurrency": "USD"}
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== STICKY HEADER ===== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a href="#hero" class="logo" aria-label="FaithBeautyGlam Home">
+        <span class="logo-cross">&#10010;</span>
+        <div class="logo-text">
+          <span class="logo-main">FaithBeautyGlam</span>
+          <span class="logo-sub">Hairstylist</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+18622317343" class="btn btn-gold">Book Now</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation" aria-hidden="true">
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#gallery" class="mobile-link">Gallery</a>
+      <a href="#testimonials" class="mobile-link">Reviews</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <div class="mobile-ctas">
+        <a href="tel:+18622317343" class="btn btn-outline-gold">Call Now</a>
+        <a href="tel:+18622317343" class="btn btn-gold">Book Appointment</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img
+          src="images/hero-1.jpg"
+          alt="Glamorous hair styling salon"
+          class="hero-img"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content container">
+        <div class="hero-badge fade-in">
+          <span class="star-row">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <span>Perfect 5.0 Rating &bull; 25 Blessed Reviews</span>
+        </div>
+        <h1 class="hero-title fade-up">
+          Walk In Blessed.<br />
+          <em>Walk Out Glam.</em>
+        </h1>
+        <p class="hero-sub fade-up delay-1">
+          Faith-inspired beauty crafted with grace, love, and a heavenly touch. Irvington's most trusted hair salon — where every strand is a blessing.
+        </p>
+        <div class="hero-ctas fade-up delay-2">
+          <a href="tel:+18622317343" class="btn btn-gold btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            Book Now — Call Us
+          </a>
+          <a href="#services" class="btn btn-outline-cream btn-lg">
+            View Services
+          </a>
+        </div>
+        <div class="hero-address fade-up delay-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          965 Springfield Ave, Irvington, NJ 07111
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator">
+        <div class="scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- ===== STATS BAR ===== -->
+    <section class="stats-bar" aria-label="Salon highlights">
+      <div class="container stats-grid">
+        <div class="stat-item fade-in">
+          <span class="stat-number">5.0</span>
+          <span class="stat-label">Star Rating</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item fade-in delay-1">
+          <span class="stat-number">25+</span>
+          <span class="stat-label">Glowing Reviews</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item fade-in delay-2">
+          <span class="stat-number">7</span>
+          <span class="stat-label">Signature Services</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item fade-in delay-3">
+          <span class="stat-number">&#10010;</span>
+          <span class="stat-label">Faith-Inspired</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-eyebrow">What We Offer</p>
+          <h2 id="services-title" class="section-title">Anointed Services,<br /><em>Heavenly Results</em></h2>
+          <p class="section-desc">Every service is performed with care, precision, and a touch of divine grace. You deserve to shine.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card fade-up" aria-label="Haircut and Style service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12c0 6.627 5.373 12 12 12s12-5.373 12-12"/><path d="M16 44c0-8.837 7.163-16 16-16s16 7.163 16 16"/><line x1="32" y1="24" x2="32" y2="28"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Haircut &amp; Style</h3>
+              <p>A fresh cut shaped with intention. Walk out confident, polished, and entirely yourself.</p>
+              <span class="service-price">from $50</span>
+            </div>
+          </article>
+
+          <article class="service-card fade-up delay-1" aria-label="Color and Highlights service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8 L40 32 L56 32 L43 43 L48 58 L32 48 L16 58 L21 43 L8 32 L24 32 Z"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Color &amp; Highlights</h3>
+              <p>Radiant color that illuminates your crown. Custom blends to make your beauty undeniable.</p>
+              <span class="service-price">from $120</span>
+            </div>
+          </article>
+
+          <article class="service-card fade-up delay-2" aria-label="Silk Press service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 16 Q32 8 40 16 Q48 24 40 32 Q32 40 24 32 Q16 24 24 16Z"/><line x1="32" y1="32" x2="32" y2="56"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Silk Press</h3>
+              <p>Silky smooth, bouncy, and flowing. Your natural hair, pressed to perfection with lasting glamour.</p>
+              <span class="service-price">from $65</span>
+            </div>
+          </article>
+
+          <article class="service-card fade-up" aria-label="Sew-In Weave service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20 Q32 12 52 20"/><path d="M12 30 Q32 22 52 30"/><path d="M12 40 Q32 32 52 40"/><path d="M12 50 Q32 42 52 50"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Sew-In Weave</h3>
+              <p>Luxurious length and volume, installed with expert hands. Look as blessed as you feel.</p>
+              <span class="service-price">from $150</span>
+            </div>
+          </article>
+
+          <article class="service-card fade-up delay-1" aria-label="Wig Install service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="28" rx="20" ry="16"/><path d="M12 28 Q12 52 32 52 Q52 52 52 28"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Wig Install</h3>
+              <p>Seamless, natural, undetectable. Your transformation begins the moment you sit in our chair.</p>
+              <span class="service-price">from $100</span>
+            </div>
+          </article>
+
+          <article class="service-card fade-up delay-2" aria-label="Natural Hair Care service">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8 C24 8 14 18 14 30 C14 44 22 56 32 56 C42 56 50 44 50 30 C50 18 40 8 32 8Z"/><path d="M32 8 C32 20 26 28 20 34"/><path d="M32 8 C32 20 38 28 44 34"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>Natural Hair Care</h3>
+              <p>Celebrate your God-given curls with treatments that hydrate, define, and restore your coils to glory.</p>
+              <span class="service-price">from $55</span>
+            </div>
+          </article>
+
+          <article class="service-card service-card--featured fade-up delay-1" aria-label="The Glam Package — signature service">
+            <div class="featured-badge">Our Signature</div>
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="32,6 38,24 58,24 42,36 48,54 32,42 16,54 22,36 6,24 26,24"/></svg>
+            </div>
+            <div class="service-body">
+              <h3>The Glam Package</h3>
+              <p>The full experience — our crown jewel service. Style, condition, treatment, and finish. Leave here completely transformed and absolutely radiant.</p>
+              <span class="service-price">from $130</span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="services-cta fade-up">
+          <p>Ready to experience the blessing of great hair?</p>
+          <a href="tel:+18622317343" class="btn btn-gold btn-lg">Call to Book &mdash; (862) 231-7343</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-images fade-in">
+          <div class="about-img-primary">
+            <img
+              src="images/about-1.jpg"
+              alt="Stylist working on client's hair"
+              loading="lazy"
+              width="600"
+              height="700"
+            />
+          </div>
+          <div class="about-img-accent">
+            <img
+              src="images/about-2.jpg"
+              alt="Hair salon interior warm tones"
+              loading="lazy"
+              width="320"
+              height="280"
+            />
+            <div class="about-badge-float">
+              <span class="cross-icon">&#10010;</span>
+              <span>Blessed &amp;<br />Beautiful</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content fade-up">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 id="about-title" class="section-title">Beauty Born<br /><em>From Faith</em></h2>
+          <p class="about-lead">At FaithBeautyGlam, we believe beauty is a gift — and every client who walks through our doors deserves to feel that truth.</p>
+          <p>Founded on the pillars of faith, excellence, and genuine love for the craft, our salon is more than a place to get your hair done. It is a sanctuary where women are uplifted, celebrated, and sent back into the world looking like the queens they truly are.</p>
+          <p>Located in the heart of Irvington on Springfield Ave, we serve our community with a perfect 5-star commitment to quality. Every appointment is an opportunity to bless someone with confidence, elegance, and a crown worthy of their worth.</p>
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-icon">&#10010;</span>
+              <div>
+                <strong>Faith-Led</strong>
+                <p>Rooted in grace and guided by purpose</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">&#9733;</span>
+              <div>
+                <strong>5-Star Standard</strong>
+                <p>25 perfect reviews and counting</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">&#9825;</span>
+              <div>
+                <strong>Community Love</strong>
+                <p>Serving Irvington with heart and excellence</p>
+              </div>
+            </div>
+          </div>
+          <a href="tel:+18622317343" class="btn btn-gold">Book Your Appointment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-eyebrow">The Look Book</p>
+          <h2 id="gallery-title" class="section-title">Crowned in<br /><em>Glory</em></h2>
+          <p class="section-desc">Every style tells a story. These are moments of transformation, confidence, and pure glam.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--tall fade-in" aria-label="Silk press style">
+            <img
+              src="images/hero-2.jpg"
+              alt="Beautiful silk press hairstyle"
+              loading="lazy"
+              width="600"
+              height="800"
+            />
+            <figcaption>Silk Press Perfection</figcaption>
+          </figure>
+
+          <figure class="gallery-item fade-in delay-1" aria-label="Color and highlights">
+            <img
+              src="images/gallery-3.jpg"
+              alt="Vibrant hair color and highlights"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <figcaption>Color &amp; Highlights</figcaption>
+          </figure>
+
+          <figure class="gallery-item fade-in delay-2" aria-label="Natural curls styling">
+            <img
+              src="images/gallery-4.jpg"
+              alt="Natural curls beautifully styled"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <figcaption>Natural Hair Care</figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item--wide fade-in" aria-label="Weave install result">
+            <img
+              src="images/gallery-5.jpg"
+              alt="Luxurious weave install hairstyle"
+              loading="lazy"
+              width="900"
+              height="500"
+            />
+            <figcaption>Sew-In Weave Install</figcaption>
+          </figure>
+
+          <figure class="gallery-item fade-in delay-1" aria-label="Wig install glam">
+            <img
+              src="images/gallery-6.jpg"
+              alt="Flawless wig installation glam look"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <figcaption>Wig Install Glam</figcaption>
+          </figure>
+
+          <figure class="gallery-item fade-in delay-2" aria-label="Glam package full look">
+            <img
+              src="images/gallery-7.jpg"
+              alt="Full glam package complete look"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <figcaption>The Glam Package</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-eyebrow">Client Love</p>
+          <h2 id="testimonials-title" class="section-title">What Our<br /><em>Queens Say</em></h2>
+          <div class="rating-display fade-up">
+            <div class="big-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div class="rating-label"><strong>5.0</strong> Perfect Rating &bull; 25 Reviews on Google</div>
+          </div>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <article class="testimonial-card fade-up" aria-label="Review from Latoya M.">
+            <div class="testimonial-header">
+              <div class="reviewer-avatar" aria-hidden="true">L</div>
+              <div class="reviewer-info">
+                <strong>Latoya M.</strong>
+                <span>Irvington, NJ</span>
+              </div>
+              <div class="testimonial-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <blockquote>
+              "I walked in feeling like an ordinary Tuesday and walked out feeling like royalty. The silk press was absolutely flawless — I have never had my hair look this good. FaithBeautyGlam lives up to every word of its name. This is not just a salon, it is a blessing."
+            </blockquote>
+            <div class="testimonial-service">Silk Press</div>
+          </article>
+
+          <article class="testimonial-card testimonial-card--featured fade-up delay-1" aria-label="Review from Diane R.">
+            <div class="testimonial-header">
+              <div class="reviewer-avatar" aria-hidden="true">D</div>
+              <div class="reviewer-info">
+                <strong>Diane R.</strong>
+                <span>Newark, NJ</span>
+              </div>
+              <div class="testimonial-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <blockquote>
+              "The Glam Package is everything! I had my birthday celebration and needed to look my absolute best. She delivered beyond my expectations — my hair was stunning. My whole family noticed the difference. This woman is anointed with her gift. I am a client for life."
+            </blockquote>
+            <div class="testimonial-service">The Glam Package</div>
+          </article>
+
+          <article class="testimonial-card fade-up delay-2" aria-label="Review from Keisha T.">
+            <div class="reviewer-avatar-wrap">
+              <div class="reviewer-avatar" aria-hidden="true">K</div>
+            </div>
+            <div class="testimonial-header">
+              <div class="reviewer-avatar" aria-hidden="true">K</div>
+              <div class="reviewer-info">
+                <strong>Keisha T.</strong>
+                <span>East Orange, NJ</span>
+              </div>
+              <div class="testimonial-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <blockquote>
+              "My sew-in has never looked this natural. She took her time, was so gentle, and made me feel so comfortable throughout the entire process. The atmosphere is warm, welcoming, and filled with such positive energy. I tell everyone about FaithBeautyGlam!"
+            </blockquote>
+            <div class="testimonial-service">Sew-In Weave</div>
+          </article>
+
+        </div>
+
+        <div class="testimonials-cta fade-up">
+          <div class="perfect-badge">
+            <span class="cross-icon">&#10010;</span>
+            <p>Perfect 5.0 &mdash; Every single review, every single time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info fade-up">
+          <p class="section-eyebrow">Find Us</p>
+          <h2 id="contact-title" class="section-title">Come See Us,<br /><em>We're Ready</em></h2>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <div>
+                <strong>Address</strong>
+                <p>965 Springfield Ave<br />Irvington, NJ 07111</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+              </div>
+              <div>
+                <strong>Phone</strong>
+                <p><a href="tel:+18622317343">(862) 231-7343</a></p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9V8h2v9zm4 0h-2V8h2v9z"/><path d="M11 7H9V5h2v2zm4 0h-2V5h2v2z"/></svg>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <p>Open Daily &bull; Closes 8:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="tel:+18622317343" class="btn btn-gold btn-lg contact-cta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            Call (862) 231-7343
+          </a>
+        </div>
+
+        <div class="contact-map fade-in">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.0!2d-74.2273765!3d40.7238704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25438b3a7a5c7%3A0x1!2s965+Springfield+Ave%2C+Irvington%2C+NJ+07111!5e0!3m2!1sen!2sus!4v1"
+            width="100%"
+            height="420"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="FaithBeautyGlam Hairstylist location map"
+            aria-label="Google Maps showing FaithBeautyGlam Hairstylist at 965 Springfield Ave, Irvington NJ"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="logo" aria-label="Back to top">
+            <span class="logo-cross">&#10010;</span>
+            <div class="logo-text">
+              <span class="logo-main">FaithBeautyGlam</span>
+              <span class="logo-sub">Hairstylist</span>
+            </div>
+          </a>
+          <p class="footer-tagline">Walk in blessed. Walk out glam.<br />Where faith meets beauty.</p>
+          <div class="footer-stars" aria-label="5 star rating">&#9733;&#9733;&#9733;&#9733;&#9733; 5.0</div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <nav aria-label="Footer navigation">
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer-services">
+          <h3>Our Services</h3>
+          <ul>
+            <li>Haircut &amp; Style — $50</li>
+            <li>Color &amp; Highlights — $120</li>
+            <li>Silk Press — $65</li>
+            <li>Sew-In Weave — $150</li>
+            <li>Wig Install — $100</li>
+            <li>Natural Hair Care — $55</li>
+            <li>The Glam Package — $130</li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Visit Us</h3>
+          <address>
+            <p>965 Springfield Ave<br />Irvington, NJ 07111</p>
+            <p><a href="tel:+18622317343">(862) 231-7343</a></p>
+            <p>Open Daily &bull; Closes 8:00 PM</p>
+          </address>
+          <a href="tel:+18622317343" class="btn btn-gold footer-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 FaithBeautyGlam Hairstylist. All rights reserved.</p>
+        <p class="footer-credit">965 Springfield Ave, Irvington, NJ 07111</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
